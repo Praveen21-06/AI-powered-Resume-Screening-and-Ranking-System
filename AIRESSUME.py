@@ -20,13 +20,16 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.sidebar.image("https://cdn-icons-png.flaticon.com/512/912/912214.png", width=100)
 st.sidebar.title("📌 Instructions")
 st.sidebar.info(
-    "1️⃣ Enter the **Job Description**.\n"
-    "2️⃣ Upload **Multiple Resumes (PDF)**.\n"
-    "3️⃣ AI will **Rank Candidates** based on relevance.\n"
-    "4️⃣ View the **Sorted Results** in a Table."
+    "### Step 1: Enter the Job Description\n"
+    "Provide a detailed job description in the input box.\n\n"
+    "### Step 2: Upload Resumes (PDF)\n"
+    "Upload multiple resumes in PDF format.\n\n"
+    "### Step 3: AI Processing\n"
+    "The system will analyze and rank candidates based on relevance.\n\n"
+    "### Step 4: View Results\n"
+    "Check the ranked resumes in a sorted table."
 )
 
 def extract_text_from_pdf(file):
